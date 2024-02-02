@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Cs55Plus />
     </v-main>
   </v-app>
 </template>
