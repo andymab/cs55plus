@@ -14,6 +14,7 @@
                <div class="d-flex">
                 <v-select
   label="Выберите модель"
+  v-model="model"
   :items="['CS55PLUS', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
   hide-details
   density="compact"
@@ -41,6 +42,7 @@
       name: 'Cs55Plus',
       data() {
           return {
+            model:'CS55PLUS',
             mpnsearch:'',
               search: '',
           }
