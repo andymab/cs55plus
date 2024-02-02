@@ -14,7 +14,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
           <v-card variant="tonal" width="600px">
-            <div class="d-flex">
+            <div class="d-flex align-center">
               <v-select
                 label="Выберите модель"
                 v-model="model"
@@ -29,6 +29,8 @@
                 hide-details
                 density="compact"
               ></v-select>
+              <div class="mx-2"></div>
+              
               <v-text-field
                 v-model="mpnsearch"
                 label="поиск по детали или по партномеру"
@@ -69,4 +71,6 @@ export default {
 .v-theme--light .v-main {
   background-color: #e0e0e0;
 }
+
+
 </style>
